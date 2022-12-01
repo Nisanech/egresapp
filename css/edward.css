@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.fecha_finalizacion{
+    display: flex;
+}
+.recuadroh1{
+    background-color:#011C26 ;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 50%;
+    
+    
+
+}
