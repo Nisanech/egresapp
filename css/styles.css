@@ -1,0 +1,263 @@
+header{
+    background-color: #011C26;
+    width: 100%;
+    height: 102px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    align-items: center;
+    
+}
+
+.vacio{
+    width: 30%;
+}
+
+.logo{
+    
+}
+
+.cabecera-3p{
+    width: 30%;
+    text-align:right;
+}
+
+.btn-salir{
+    background-color:#D0F2EF ;
+    width: 220px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+
+
+}
+
+aside{
+    background-color: #011C26;
+    width: 330px;
+    height:922px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuerpo{
+    margin-left:331px ;
+    width:calc( 100% - 330px);
+    height: 922px;
+}
+
+.cont-cuerpo{
+    display: flex;
+}
+
+.cont-izq{
+    width: 50%;
+    height:922px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tit-info{
+    margin-top: 25px;
+    width: 248px;
+    height: 37px;
+    border-radius: 20px;
+    background-color: #011C26;
+    color: white;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.cont-der{
+    width: 50%;
+    height: 922px;
+}
+.sup-aside{
+    height: 461px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.inf-aside{
+    height: 461px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foto-perfil{
+    background-color: darkgray;
+    margin-top: 45px;
+    width: 205px;
+    height: 205px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.foto-perfil-cont{
+    background-color: darkgray;
+    margin-top: 25px;
+    width: 315px;
+    height: 315px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.nombre-perfil{
+    font-size: 40px;
+    margin-top: 45px;
+    color:white;
+}
+
+.rol-perfil{
+    font-size: 30px;
+    margin-top: 5px;
+    color:white;
+}
+
+.btn1{
+    width: 248px;
+    height: 37px;
+    border-radius:  12px;
+    border: 2px solid white;
+    background-color: #011C26;
+    color: white;
+}
+
+.btn2{
+    width: 248px;
+    height: 37px;
+    border-radius: 12px;
+    background-color: #D0F2EF;
+}
+
+.btn-inicio{
+    margin-top: 20px;
+}
+
+.btn-p{
+    width: 210px;
+    margin-left: 35px;
+}
+
+.cont-izq{
+    width: 40%;
+}
+
+.cont-der{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-examinar{
+    margin-top: 25px;
+}
+
+.form-desc{
+    width: 338px;
+    height: 258px;
+    border-radius: 12px;
+}
+
+.cont-izq p{
+    color: rgb(255, 255, 255);
+}
+
+.cont-form{
+    background-color: #D9D9D9;
+    width: 540px;
+    height: 880px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-item-1{
+    width: 440px;
+    height: 38px;
+    border-radius: 8px;
+    border: transparent;
+
+}
+
+.form-doc{
+    display: flex;
+}
+
+.form-item-id{
+    width: 144px;
+    height: 38px;
+    border-radius: 8px;
+    border: transparent;
+    
+}
+
+.form-item-num-id{
+    width: 250px;
+    height: 38px;
+    border-radius: 8px;
+    border: transparent;
+    margin-left: 40px;
+}
+
+.num-id{
+    margin-left: 40px;
+}
+
+.name-p{
+    margin-top: 20px;
+}
+
+#empleo-p{
+    width: 145px;
+}
+
+.btn-aceptar{
+    width: 125px;
+    height: 38px;
+    border-radius: 8px;
+    border:12px transparent;
+    margin-left: 40px;
+    background-color: #04CA00;
+    color: white;
+}
+
+.btn-cancelar{
+    width: 125px;
+    height: 38px;
+    border-radius: 8px;
+    border:12px transparent;
+    margin-left: 40px;
+    background-color: #ff0505;
+    color: white;
+}
+
+.submit{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.btn-info-acad{
+    margin-bottom: 100px;
+}
