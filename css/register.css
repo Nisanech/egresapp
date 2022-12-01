@@ -13,19 +13,21 @@
 
 }
 
-.container_login {
-    padding: 50px;
+.container_login {    
     display: flex;
     flex-direction: column;
-    align-items: center;    
-    box-shadow: 10px 5px 5px black;     
+    align-items: center;          
+}
+.container_login img {
+    width: 20vw;
+    margin: 50px 0px 70px 0px ;
 }
 
 .rlbuttons {    
     display: flex;
     justify-content: space-between;
-    align-items:flex-end;
-    font-size: 18px;
+    *align-items:flex-end;
+    font-size: 10px;
 }
 .rlbuttons a {
     text-decoration: none;
@@ -35,50 +37,52 @@
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     text-align: center;    
-    width: 20vw;
-    height: 8vh;
-    background-color: var(--backgroundcolor_form);  
+    width: 10vw;
+    height: 4vh;
+    background-color: grey;  
 }
 .registerbtn {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     text-align: center;
-    width: 20vw;
-    height: 8vh;
-    background-color: grey;   
+    width: 10vw;
+    height: 4vh;
+    background-color: var(--backgroundcolor_form);   
 }
 
 
 .inputform {
     border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    width: 40vw;
-    height: 70vh;
+    border-bottom-right-radius: 25px;    
+    padding: 30px;
+    width: 20vw;
+    height: 50vh;
     background-color: var(--backgroundcolor_form);    
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    *justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 20px;
     text-align: center;
     color: var(--colorfont_form);
 }
 
 .inputform input {
-    width: 25vw;
-    height: 7vh;
+    width: 12vw;
+    height: 5vh;
     border-radius: 15px;    
     margin-bottom: 25px;
 }
 
 .enter{
-    margin-top: 50px;
-    width: 15vw;
-    height: 7vh;
+    margin-top: 20px;
+    padding: 5px;
+    width: 12vw;
+    *height: 7vh;
     border-radius: 15px;
     background-color: grey;
     color: var(--colorfont_form);
-    font-size: 20px;
+    font-size: 12px;
     border-color: var(--backgroundcolor_form);
 }
 
@@ -86,9 +90,4 @@
     text-decoration: none;
     color: var(--colorfont_form);
 }
-
-
-
-
-
 
