@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --backgroundcolor_form: #2A4C59;
+    --colorfont_form:#FFFFFF;
+
+}
+
+.container_login {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    box-shadow: 10px 5px 5px black;     
+}
+
+.rlbuttons {    
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    font-size: 18px;
+}
+.rlbuttons a {
+    text-decoration: none;
+    color: var(--colorfont_form);
+}
+.loginbtn {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;    
+    width: 20vw;
+    height: 8vh;
+    background-color: var(--backgroundcolor_form);  
+}
+.registerbtn {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    width: 20vw;
+    height: 8vh;
+    background-color: grey;   
+}
+
+
+.inputform {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 40vw;
+    height: 70vh;
+    background-color: var(--backgroundcolor_form);    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    color: var(--colorfont_form);
+}
+
+.inputform input {
+    width: 25vw;
+    height: 7vh;
+    border-radius: 15px;    
+    margin-bottom: 25px;
+}
+
+.enter{
+    margin-top: 50px;
+    width: 15vw;
+    height: 7vh;
+    border-radius: 15px;
+    background-color: grey;
+    color: var(--colorfont_form);
+    font-size: 20px;
+    border-color: var(--backgroundcolor_form);
+}
+
+.enter a {
+    text-decoration: none;
+    color: var(--colorfont_form);
+}
+
+
+
+
+
+
