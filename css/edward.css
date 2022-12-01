@@ -3,23 +3,68 @@
     padding: 0;
 
 }
+
+h2{
+    font-size: 15px;
+    
+}
 .container{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #D9D9D9;
+    width:70vw;
+    height: 50vw;
+    margin: 0 auto;
+    border-radius: 20px;
 
 }
 .fecha_finalizacion{
     display: flex;
 }
-.recuadroh1{
-    background-color:#011C26 ;
-    color: white;
-    width: 300px;
-    height: 50px;
-    border-radius: 50%;
-    
-    
+.tituloformacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    text-align: center;
+    background-color: #011C26;
+    color: white;
+    width: 40vw;
+    height: 50px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    
+}
+.inputTexto{
+    width: 40vw;
+    margin:  0px;
+    height: 2vw;
+}
+button{
+    background-color: #04CA00;
+    border: none;
+    color: white;
+    height: 3vw;
+    width: 6vw;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #76ff73;
+}
+.fecha_finalizacion{
+    justify-content: center;
+    margin: 10px 0;
+    align-items: center;
+}
+.inputFinal{
+    width:  10vw;
+    height: 2vw;
+}
+.estudio_actual{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
