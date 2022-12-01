@@ -68,3 +68,7 @@ button:hover{
     justify-content: center;
     align-items: center;
 }
+select{
+    width: 40vw;
+    height: 2.5vw;
+}
